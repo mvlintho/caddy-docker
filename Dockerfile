@@ -23,3 +23,4 @@ COPY index.html /srv/index.html
 
 ENTRYPOINT ["/usr/bin/caddy"]
 CMD ["--conf", "/etc/Caddyfile", "--log", "stdout"]
+
